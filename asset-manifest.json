@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.49233bc9.css",
-    "main.js": "/static/js/main.62976c75.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "main.css": "/static/css/main.2b382f9d.css",
+    "main.js": "/static/js/main.04aaa14d.js",
+    "static/js/787.d22fc333.chunk.js": "/static/js/787.d22fc333.chunk.js",
     "static/media/fashion_flare.png": "/static/media/fashion_flare.5a9e7f73130217a44eed.png",
+    "static/media/WorldTravel.png": "/static/media/WorldTravel.a6288045f56171b3634f.png",
     "static/media/Wonderkidedu.png": "/static/media/Wonderkidedu.6fb85a734275c5faa696.png",
     "static/media/HealthKart.png": "/static/media/HealthKart.186d901a18bd0196b7e3.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -19,12 +20,12 @@
     "static/media/icons8-css.svg": "/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-chakra-ui.svg": "/static/media/icons8-chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/icons8-html.svg": "/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.49233bc9.css.map": "/static/css/main.49233bc9.css.map",
-    "main.62976c75.js.map": "/static/js/main.62976c75.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.2b382f9d.css.map": "/static/css/main.2b382f9d.css.map",
+    "main.04aaa14d.js.map": "/static/js/main.04aaa14d.js.map",
+    "787.d22fc333.chunk.js.map": "/static/js/787.d22fc333.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49233bc9.css",
-    "static/js/main.62976c75.js"
+    "static/css/main.2b382f9d.css",
+    "static/js/main.04aaa14d.js"
   ]
 }
