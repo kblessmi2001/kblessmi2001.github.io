@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.146d0b9d.css",
-    "main.js": "/static/js/main.f0940b83.js",
+    "main.js": "/static/js/main.6422afad.js",
     "static/js/787.d22fc333.chunk.js": "/static/js/787.d22fc333.chunk.js",
     "static/media/fashion_flare.png": "/static/media/fashion_flare.5a9e7f73130217a44eed.png",
     "static/media/WorldTravel.png": "/static/media/WorldTravel.a6288045f56171b3634f.png",
@@ -27,11 +27,11 @@
     "static/media/icons8-chakra-ui.svg": "/static/media/icons8-chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/icons8-html.svg": "/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.146d0b9d.css.map": "/static/css/main.146d0b9d.css.map",
-    "main.f0940b83.js.map": "/static/js/main.f0940b83.js.map",
+    "main.6422afad.js.map": "/static/js/main.6422afad.js.map",
     "787.d22fc333.chunk.js.map": "/static/js/787.d22fc333.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.146d0b9d.css",
-    "static/js/main.f0940b83.js"
+    "static/js/main.6422afad.js"
   ]
 }
