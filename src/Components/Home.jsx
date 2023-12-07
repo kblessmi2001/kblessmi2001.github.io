@@ -28,7 +28,8 @@ const Home = () => {
   };
 
   return (
-    <div className='intro-main' id="home" style={{ paddingTop: "90px",backgroundColor:"#9cad43" }}>
+    <div className='intro-main' id="home" style={{ paddingTop: "90px" }}>
+      
       <div className='intro-main-img-div'>
         <div className='intro-main-text-div' style={{ color: "whitesmoke",}}>
           <motion.div
@@ -37,8 +38,7 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <h1 className='nameh1tag' id="user-detail-name" >
-              <span style={{ color: "whitesmoke"}}>Hi, I'm </span>
-              <span style={{ color: "whitesmoke" }}>Blessmi</span>
+              <span style={{ color: "whitesmoke"}}>Hi, I'm Blessmi</span>
             </h1>
 
             <h2 className='typewriter'>

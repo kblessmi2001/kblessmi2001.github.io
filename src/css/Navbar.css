@@ -3,21 +3,56 @@
  
 }
 
-.logo{
+.logo {
   text-decoration: none;
-  font-weight: 700;
-  font-size: 35px;
-  color: white;
+  /* font-weight: 700; */
+  font-size: 45px;
   margin-left: 20px;
+  background-clip: text;
+  /* color:#2C2B30; */
+  /* background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f); */
+  /* color: var(--color-background);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  letter-spacing: var(--letter-spacing);
+  -webkit-text-stroke-width: 6.3px;
+  padding: calc(var(--stroke-width) / 2);
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: var(--stroke-width); */
+  /* color: red;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  word-spacing: normal; */
+  /* position: relative;
+  -webkit-text-stroke-width: 2.6px; 
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-background: transparent;
+  font-family: Impact, Charcoal, sans-serif;
+  background-clip: text;
+  color: #2C2B30; */
 }
 
+/* Define custom properties for reuse */
+/* :root {
+  --color-background: #030202;
+  --font-size: 35px;
+  --font-weight: 700; 
+  --letter-spacing: 0.2rem; 
+  --stroke-width: 3.9px; 
+} */
+
+/* navbar */
 .nav {
   display: flex;
-  /* width: 100%; */
   margin: auto;
   justify-content: space-between;
-  padding: 10px ;
-  background-color: #2C2B30;
+  padding: 10px 6px;
+  width: 100%;
+  background:#2C2B30;
   height: fit-content;
   position: sticky;
   top: 0;
@@ -26,6 +61,8 @@
   align-items: center;
 }
 
+
+/* humburger menu */
 .menu{
   display: flex;
   width: 60%;
@@ -40,87 +77,403 @@
   padding: 10px 20px;
   border-radius: 6px;
   text-decoration: none;
-  color: white
+  /* color: white; */
+  color:black
+}
+.menu-item > a:hover{
+  color: #00fffc;
 }
 
+.menu-item > a:after{
+     
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.menu-item  a:hover:after { 
+  width: 100%; 
+  left: 0;
+  right: 0;
+  background-color:#00fffc;
+  color: black !important;
+}
+.menu-item a{
+    /* color: #fff; */
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    
+  
+}
+
+
+/* menu items */
 .nav-link:hover{
-  background-color: gray;
   cursor: pointer;
   color: black;
-  transition: background-color 0.5s ease-in-out;
 }
+.nav-link:hover span {
+  color: cyan !important;
+}
+
+
+/* button */
+#resume-button-1{
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: 600;
+  color:black
+
+}
+
+#resume-button-1:hover{
+  /* background-color:gray; */
+  cursor: pointer;
+  color: #00fffc;
+}
+
+#download{
+  color:#4851ff;
+  padding-right:10px;
+}
+#download:hover
+{
+  color:#00fffc
+}
+
+
+/* nav scrolled */
+.nav.scrolled {
+  background: #3c547d;
+  color: white;
+}
+
+.nav.scrolled .nav-link {
+  color: black; /* Change the link color */
+}
+
+.nav.scrolled .nav-link:hover span {
+  color: white !important;/* Change the link color on hover */
+}
+
+.nav.scrolled .nav-link span {
+  color: black !important; /* Change the color of spans within links */
+}
+
+.nav.scrolled .logo span {
+  color: black !important;
+}
+.nav.scrolled #download{
+  color:black;
+  padding-right:10px;
+}
+.nav.scrolled #download:hover
+{
+  color:white
+}
+
+.nav.scrolled .menu-item > a:after{
+     
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .nav.scrolled .menu-item  a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+    background-color:white;
+    color: black !important;
+  }
+  .nav.scrolled .menu-item a{
+      /* color: #fff; */
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+  }
+
+@media only screen and (max-width: 670px) {
+.menu {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  position: fixed;
+  right: -300px; 
+  top: 70px;
+  width: 250px; 
+  height: 100%;
+  background: linear-gradient(88deg,darkviolet,blue);
+  transition: right 0.3s ease; 
+  z-index: 999;
+  padding: 5px;
+  margin: 0%;
+  /* color:whitesmoke */
+ 
+}
+
+.menu.active {
+  right: 0; 
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 0; 
+  padding: 5px; 
+}
+
+.menu-item a {
+  /* color:cyan !important; */
+  text-decoration: none;
+  flex: 1; 
+}
+
+
+.menu>li>a{
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  /* color: white; */
+  color:black !important
+}
+#download{
+  color:cyan;
+  padding-right:10px;
+}
+#download:hover
+{
+  color:#00fffc
+}
+
+.nav.scrolled {
+  background: #3c547d;
+  color: white;
+}
+.nav.scrolled .menu{
+  background:  #3c547d !important;
+}
+
+.nav.scrolled .nav-link {
+  color: black; /* Change the link color */
+}
+
+.nav.scrolled .nav-link:hover span {
+  color: white !important;/* Change the link color on hover */
+}
+
+.nav.scrolled .nav-link span {
+  color: black !important; /* Change the color of spans within links */
+}
+
+.nav.scrolled .logo span {
+  color: black !important;
+}
+.nav.scrolled #download{
+  color:black;
+  padding-right:10px;
+}
+.nav.scrolled #download:hover
+{
+  color:white
+}
+
+.nav.scrolled .menu-item > a:after{
+     
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .nav.scrolled .menu-item  a:hover:after { 
+    width: 50%; 
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:white;
+    color: black !important;
+  }
+  .nav.scrolled .menu-item a{
+      /* color: #fff; */
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+  }
+
+  .nav.scrolled {
+    background: #3c547d;
+    color: white;
+  }
+  
+.nav-link {
+    color: black !important; 
+  }
+  
+.nav-link:hover span {
+    color: white !important;
+  }
+  
+.nav-link span {
+    color: black !important; 
+  }
+#download{
+    color:black;
+    padding-right:10px;
+  }
+#download:hover
+  {
+    color:white
+  }
+  
+.menu-item > a:after{
+       
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 4px;
+      left: 50%;
+      position: absolute;
+      background: #fff;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+  
+  .menu-item  a:hover:after { 
+      width: 100%; 
+      left: 0;
+      right: 0;
+      background-color:white;
+      color: black !important;
+    }
+  .menu-item a{
+        /* color: #fff; */
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+    }
+  
+  .menu-item > a:after{
+       
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 4px;
+      left: 50%;
+      position: absolute;
+      background: #fff;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+  
+    .menu-item  a:hover:after { 
+      width: 50%; 
+      left: 0;
+      right: 0;
+      margin: auto;
+      /* background-color:#00fffc; */
+      color: black !important;
+    }
+    .menu-item a{
+        /* color: #fff; */
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        
+      
+    }
+  
+.menu-item > a:after{
+     
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .menu-item  a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+    background-color:white;
+    color: black !important;
+  }
+  .menu-item a{
+      /* color: #fff; */
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      
+    
+  }
 
 #resume-button-1{
   border: none;
   background: none;
   font-size: 20px;
   font-weight: 600;
+  color:cyan
+  /* margin-right: "20px" */
+}
+.menu-item > a:after{
+     
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.menu-item  a:hover:after { 
+  width: 50%; 
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color:white;
+}
+.menu-item a{
+    /* color: #fff; */
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    
   
 }
-
-#resume-button-1:hover{
-  /* background-color:gray; */
-  cursor: pointer;
-  color: black
-}
-
-.nav {
-  display: flex;
-  width: 100%;
-  margin: auto;
-  justify-content: space-between;
-  padding: 10px 6px;
-  background-color:#2C2B30;
-  position: sticky;
-  top: 0;
-  position: fixed;
-  z-index: 999;
-}
-
-
-
-.nav.scrolled {
-  background-color:RGB(60 84 125);
-  color: white;
-}
-
-@media only screen and (max-width: 670px) {
-  .menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 40px;
-    background-color: #2c2b30;
-    width: 40%;
-    left: 52%;
-    right: 0;
-    /* margin: auto; */
-    
-  }
-
-  .menu.active {
-    display: flex;
-  }
-
-  .menu-item {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin-left: -30px;
-    justify-content: center;
-  }
-  .menu-item a {
-    color: white;
-    text-decoration: none;
-    width:100px;
-    text-align: center;
-  }
-
-  .menu-item a:hover {
-    color:black;
-
-  }
-
  /* Styling for the hamburger icon */
 .hamburger-icon {
   cursor: pointer;
@@ -171,7 +524,7 @@
     justify-content: space-between;
     align-items:center;
     width: 100%;
-    /* margin-left: -30px; */
+    margin-left: -35px;
   }
 }
 

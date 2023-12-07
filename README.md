@@ -1,63 +1,70 @@
-# Blessmi - Full Stack Web Developer Portfolio
+# Getting Started with Create React App
 
-## Introduction
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-About
-Hello! I'm Blessmi, a Full Stack Web Developer from TamilNadu, with a Bachelor of Engineering degree in Geoinformatics from Anna University Regional Campus, Tirunelveli (2022). I am passionate about coding and web development, and I believe technology has the potential to transform society.
+## Available Scripts
 
-## Education
+In the project directory, you can run:
 
--  Bachelor of Engineering degree in Geoinformatics from Anna University Regional Campus, Tirunelveli (2022)
+### `npm start`
 
-## Professional Training
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-I further honed my web development skills by enrolling in the full-time 30-week Full Stack Web Development program offered by Masai School. During this program, I gained hands-on experience in both front-end and back-end technologies. Some of the technologies I am proficient in include:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- HTML
-- CSS
-- Javascript
-- React
-- TypeScript
-- Redux
-- React-Redux
-- React Testing
-- Cypress
-- Netlify
-- VSCode
-- Cyclic
+### `npm test`
 
-## Projects
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### HealthKart.com (Clone)
+### `npm run build`
 
-- Features: Authentication, Filter, Routing, Login, Signup, Add to Cart
-- Description: An individual project completed in 5 days. It is a full-fledged e-commerce website that enables consumers directly purchase health and wellness products.
-- Tech-Stack: HTML, CSS, Javascript
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Fashion Flare 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Features: Single product page, Cart Page, Payment Page
-- Description: Collaborated with a team of 5 members to develop Fashion Flare, a retail clothing brand targeting young adults and teenagers.
-- Tech-Stack: HTML, CSS, JavaScript, JSON
-- Area of responsibility:
-  - Developed the Single product page
-  - Developed the Cart Page
-  - Developed the Payment Page
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
- ### WonderKidEdu
+### `npm run eject`
 
-- Features: Authentication, Filter, Routing, Login, Signup, Single product page
-- Description: Developed an education website called WonderEduKit catering to children under the age of 5
-- Tech-Stack: HTML, CSS, JavaScript, JSON, React, Chakra UI 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Hobbies and Interests
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Apart from coding, I enjoy cooking and listening to music. Drawing is also a favorite hobby.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Contact Information
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- Email: kblessmi2001@gmail.com
-- GitHub: https://github.com/kblessmi2001
-- LinkedIn:https://www.linkedin.com/in/blessmi-k-01088b224/
+## Learn More
 
-Thank you for visiting my portfolio. I am enthusiastic about web development and believe in its power to make a positive impact. If you have any questions or would like to collaborate, please don't hesitate to reach out to me.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

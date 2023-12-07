@@ -3,9 +3,28 @@
    
 }
 #home{
-    background-color:"#F58F7C";
+    /* background-color:"#F58F7C"; */
     /* margin-top:-50px */
-}
+    /* #e6345b,#f8219e,#9792ec,#d430f8,#ad01d7 */
+    /* #7c4db3,darkblue,#125488,#333e9a */
+    /* background: linear-gradient(137deg,#dcae70,#65c9c1,#af8735,#2987a3,#3654b1); */
+        /* background: linear-gradient(300deg,deepskyblue,#e82cb6,darkviolet,blue ); */
+        background: linear-gradient(307deg,deepskyblue,darkviolet,blue);
+        background-size: 240% 240%;
+        animation: gradient-animation 12s ease infinite;
+      }
+      
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
 .intro-main-img-div {
     background-size: cover;
     height: 650px;
@@ -34,17 +53,36 @@
     margin-top: 30px;
 }
 
-.nameh1tag{
-   
-color: #a8dff1;
-text-align: center;
-font-size: 4rem;
-font-family: 'Poppins', sans-serif;
-letter-spacing: 0.2rem;
-word-spacing: normal;
-/* margin-top: 400px; */
-    
+.nameh1tag {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2rem;
+    /* font-weight: 700;
+    word-spacing: normal;
+    position: relative;
+    -webkit-text-stroke-width: 10px; 
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-fill-color: white;
+    -webkit-text-fill-background: transparent;
+    font-family: Impact, Charcoal, sans-serif;
+    background-clip: text;
+    color: #2C2B30;
+    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2);
+    color: var(--color-background);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(var(--stroke-width) / 2);
+    -webkit-text-stroke-color: transparent; */
+    /* -webkit-text-stroke-width: var(--stroke-width); */
 }
+
+:root {
+    --color-background: #000119;
+    --font-size: 30vmin;
+    --font-weight: 700;
+    --letter-spacing: calc(1em / 8);
+}
+
 
 .typewriter{
  text-align: center;
