@@ -2,26 +2,11 @@ import React from 'react'
 import Flip from 'react-reveal/Flip'
 import Fade from 'react-reveal/Fade';
 import passport_photo from "../images/Bless-Image.jpg"
+import resume from "../files/Blessmi_Resume.pdf"
 import "../css/About.css"
 
 const About = () => {
-    const handleDownload = async () => {
-
-        const response = await fetch("https://drive.google.com/file/d/13TcukNaSjF6CM6lqreCK2J9n1j-_BKsj/view");
-        const blob = await response.blob();
-        const blobUrl = URL.createObjectURL(blob);
-
-
-        const link = document.createElement('a');
-        link.id = 'resume-link-2'
-        link.href = blobUrl;
-        link.target = '_blank';
-        link.setAttribute('download', 'Blessmi-Resume.pdf');
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        window.open(blobUrl, '_blank');
-    };
+    
     return (
         <div id="about" className="about section">
             {/* <button className='heading-textbtn'> */}
@@ -41,13 +26,20 @@ const About = () => {
                         <p>I'm <span className="name-text" id="user-detail-name">Blessmi</span>, an Aspiring Full Stack Web Developer proficient in React, HTML and CSS, and an Enthusiastic Learner. I have always found it fascinating to turn my problem-solving skills and creative ideas into real-world applications.</p>
 
                         <div className="button">
-
-                            <button
-                                className="resume-button" id="resume-button-2"
-                                onClick={handleDownload}
+                            <a
+                                href={resume}
+                                className="nav-link resume"
+                                id="resume-link-1"
+                                download="Blessmi-Resume"
+                                target="_blank"
                             >
-                                Resume
-                            </button>
+                                <button
+                                    className="resume-button" id="resume-button-2"
+                                    onClick={() => window.open("https://drive.google.com/file/d/13TcukNaSjF6CM6lqreCK2J9n1j-_BKsj/view", "_blank")}
+                                >
+                                    Resume
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </Fade>
