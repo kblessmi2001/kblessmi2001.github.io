@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import '../css/Navbar.css';
-import resume from "../files/Blessmi_Resume.pdf"
+import resume from "../files/Blessmi-K-Resume.pdf"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -115,7 +115,7 @@ const Navbar = () => {
             href={resume}
             className="nav-link resume"
             id="resume-link-1"
-            download="Blessmi-Resume"
+            download="Blessmi-K-Resume"
             target="_blank"
           >
 

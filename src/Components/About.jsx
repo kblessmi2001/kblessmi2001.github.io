@@ -2,7 +2,7 @@ import React from 'react'
 import Flip from 'react-reveal/Flip'
 import Fade from 'react-reveal/Fade';
 import passport_photo from "../images/Bless-Image.jpg"
-import resume from "../files/Blessmi_Resume.pdf"
+import resume from "../files/Blessmi-K-Resume.pdf"
 import "../css/About.css"
 
 const About = () => {
@@ -30,7 +30,7 @@ const About = () => {
                                 href={resume}
                                 className="nav-link resume"
                                 id="resume-link-1"
-                                download="Blessmi-Resume"
+                                download="Blessmi-K-Resume"
                                 target="_blank"
                             >
                                 <button

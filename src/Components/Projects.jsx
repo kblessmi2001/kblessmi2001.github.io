@@ -21,7 +21,7 @@ import { VscLiveShare } from "react-icons/vsc";
 // {------------------------------- SECOND IMPLEMENTATION --------------------------------------------}
 const Projects = () => {
    const Wonderkidedulink = () => {
-      window.open("https://incandescent-douhua-33325d.netlify.app/");
+      window.open("https://rainbow-realm.vercel.app/");
    }
    const Wonderkidedugithublink = () => {
       window.open("https://github.com/kblessmi2001/venomous-sense-8377/tree/main/rainbow_realm");
