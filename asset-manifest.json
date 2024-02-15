@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.146d0b9d.css",
-    "main.js": "/static/js/main.3fc795f6.js",
+    "main.js": "/static/js/main.f0e0c267.js",
     "static/js/787.d22fc333.chunk.js": "/static/js/787.d22fc333.chunk.js",
     "static/media/fashion_flare.png": "/static/media/fashion_flare.5a9e7f73130217a44eed.png",
     "static/media/WorldTravel.png": "/static/media/WorldTravel.a6288045f56171b3634f.png",
@@ -12,7 +12,7 @@
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/development.png": "/static/media/development.3a15003489fb8beca501.png",
-    "static/media/Blessmi-K-Resume.pdf": "/static/media/Blessmi-K-Resume.740ff815afa619ba3f46.pdf",
+    "static/media/Blessmi-K-Resume.pdf": "/static/media/Blessmi-K-Resume.1c1f0eb0f35bdd180daa.pdf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/Bless-Image.jpg": "/static/media/Bless-Image.2784390f2c36f3ca7392.jpg",
@@ -27,11 +27,11 @@
     "static/media/icons8-chakra-ui.svg": "/static/media/icons8-chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/icons8-html.svg": "/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.146d0b9d.css.map": "/static/css/main.146d0b9d.css.map",
-    "main.3fc795f6.js.map": "/static/js/main.3fc795f6.js.map",
+    "main.f0e0c267.js.map": "/static/js/main.f0e0c267.js.map",
     "787.d22fc333.chunk.js.map": "/static/js/787.d22fc333.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.146d0b9d.css",
-    "static/js/main.3fc795f6.js"
+    "static/js/main.f0e0c267.js"
   ]
 }
